@@ -829,3 +829,237 @@ section{
         width: 30%;
     }
 }
+
+@media (max-width: 480px) {
+    .home {
+        font-size: 2rem;
+    }
+
+    .navbar a {
+        margin-left: 1.5rem;
+        font-size: 1rem;
+    }
+
+    .profil-content h2 {
+        font-size: 1.8rem;
+    }
+
+    .profil-content h3 {
+        font-size: 1.8rem;
+    }
+
+    .profil-img img {
+        width: 12rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+    }
+
+    .social-icon a {
+        font-size: 1.5rem;
+        padding: 0.8rem;
+    }
+
+    #contact h2 {
+        font-size: 2rem;
+    }
+
+    #contact p {
+        font-size: 1rem;
+    }
+
+    .columns {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .column {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .passion-img {
+        height: 180px;
+    }
+
+    .passion h3 {
+        font-size: 1.5rem;
+    }
+
+    .passion p {
+        font-size: 1rem;
+    }
+
+    .card h3 {
+        font-size: 1.5rem;
+    }
+
+    .card p {
+        font-size: 1rem;
+    }
+
+    .skill-main h3 {
+        font-size: 1.5rem;
+    }
+
+    .skill-bar .bar {
+        height: 8px;
+    }
+
+    .skill-bar span {
+        height: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        padding: 1rem 3%;
+    }
+
+    .navbar a {
+        margin-left: 2rem;
+        font-size: 1rem;
+    }
+
+    .profil-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .profil-content h2 {
+        font-size: 2rem;
+    }
+
+    .profil-content h3 {
+        font-size: 2rem;
+    }
+
+    .profil-img img {
+        width: 15rem;
+    }
+
+    .btn-group {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .navbar a {
+        font-size: 1rem;
+        margin-left: 1.5rem;
+    }
+
+    header {
+        padding: 1rem 3%;
+    }
+
+    #profil {
+        flex-direction: column;
+        gap: 5rem;
+        padding: 2rem 5%;
+    }
+
+    .profil-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .profil-content h3 {
+        font-size: 2rem;
+    }
+
+    .profil-content p {
+        font-size: 1rem;
+    }
+
+    .social-icon a {
+        font-size: 1.5rem;
+        margin: 2% 1%;
+    }
+
+    .articles {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card img {
+        max-width: 100%;
+    }
+
+    .columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        max-width: 100%;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        margin-left: 0;
+        font-size: 1.2rem;
+        padding: 1rem 0;
+    }
+
+    .navbar a:hover {
+        color: var(--main-color);
+        border-bottom: 3px solid var(--main-color);
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .menu-icon {
+        display: none;
+        font-size: 2rem;
+        cursor: pointer;
+        color: var(--text-color);
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }   
+    
+    .menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        margin-left: 0;
+        font-size: 1.2rem;
+        padding: 1rem 0;
+    }
+
+    .navbar a:hover {
+        color: var(--main-color);
+        border-bottom: 3px solid var(--main-color);
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+}
