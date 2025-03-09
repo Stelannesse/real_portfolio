@@ -274,6 +274,10 @@ section{
     border: 2px solid var(--main-color);
 }
 
+.intro_veille h2 {
+    padding-bottom: 2rem;
+}
+
 
 .articles {
     display: grid;
@@ -290,6 +294,11 @@ section{
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     border: 2px solid var(--main-color);
 }
+
+.article h2{
+    margin-bottom: 2rem;
+}
+
 
 .article:hover {
     transform: translateY(-10px);
