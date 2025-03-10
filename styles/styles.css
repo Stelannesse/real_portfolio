@@ -186,8 +186,8 @@ section{
 }
 
 .ecole {
-    text-decoration: none;
     color: var(--text-color);
+    text-decoration: underline;
 }
 
 .btn-group {
