@@ -366,9 +366,9 @@ span{
     width: 80%;
     animation: css 2s;
 }
-.skill-bar .bar .javascript{
+.skill-bar .bar .typecript{
     width: 40%;
-    animation: javascript 2s;
+    animation: typecript 2s;
 }
 .skill-bar .bar .c{
     width: 30%;
@@ -667,7 +667,7 @@ span{
     }
 }
 
-@keyframes javascript{
+@keyframes typecript{
     0%{
         width: 0%;
     }
