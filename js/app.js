@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Menu burger
     const menuIcon = document.querySelector('.menu-icon');
     const navbar = document.querySelector('.navbar');
     const body = document.body;
@@ -31,5 +32,30 @@ document.addEventListener('DOMContentLoaded', () => {
             overlay.classList.remove('active');
             body.style.overflow = 'auto';
         });
+    });
+
+    // Animation des compétences
+    const observerOptions = {
+        threshold: 0.5,
+        rootMargin: '0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, observerOptions);
+
+    // Observer les barres de progression
+    document.querySelectorAll('.skill-bar').forEach(bar => {
+        observer.observe(bar);
+    });
+
+    // Observer les cercles de compétences
+    document.querySelectorAll('.skill-circle').forEach(circle => {
+        observer.observe(circle);
     });
 });
